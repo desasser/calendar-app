@@ -8,33 +8,31 @@ var scheduleObj = [];
 var now = moment().format('dddd, MMMM Do YYYY');
 //Append current day to p-tag of currentDay in HTML
 $('#currentDay').append(now);
-console.log(now);
+// console.log(now);
 
 //Fetch current time from moment.js
 var currentTime = moment().format('HH')
 
-//TODO: Run loop to check which block current time fits in and assign class (past, future, present)
+
+//Run loop to check which block current time fits in and assign class (past, future, present)
 for (i = 0; i < 24; i++) {
-    console.log(i);
+    // console.log(i);
     if (parseInt(currentTime) === i) {
         //grab the thing with data-time = i and set the class attribute to present
-        //TODO: only keeping a single class, forced width but lost col-md-10
-        $(`[data-time = ${i}]`).prev().attr('class','present');
-        // $(`[data-time = ${i}]`).prev().attr('class','col-md-10')
-        console.log(i);
+        $(`[data-time = ${i}]`).prev().addClass('present');
         //for all data-time > i, set the class attribute to future
         for (let j = i+1; j < 24; j++) {
-            $(`[data-time = ${j}]`).prev().attr('class','future');
+            $(`[data-time = ${j}]`).prev().addClass('future');
         }
         //for all data-time < i, set the class attribute to future
         for (let k = 0; k < i-1; k++) {
-            $(`[data-time = ${k}]`).prev().attr('class','past');
+            $(`[data-time = ${k}]`).prev().addClass('past');
         }
     } 
     
 }
 
-console.log(currentTime);
+// console.log(currentTime);
 
 //When the save button is clicked, save the text from the present time into local storage
 $(".saveBtn").on("click", function() {
