@@ -1,59 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Work Day Scheduler</title>
-  </head>
-
-  <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
-    </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-      <div class="row">
-        <div class="col-md-1 hour">
-          <p>4am</p>
-        </div>
-        <textarea class="past col-md-10" id="textOne"></textarea>
-        <div class="col-md-1 saveBtn" id="timeOne" data-time = "4">
-          <i class="far fa-save centered"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-1 hour">
-          <p>5am</p>
-        </div>
-        <textarea class="past col-md-10" id="textTwo"></textarea>
-        <div class="col-md-1 saveBtn" id="timeTwo" data-time = "5">
-            <i class="far fa-save centered"></i>
-        </div>
-      </div>
-      <div class="row">
+<div class="row">
         <div class="col-md-1 hour">
           <p>6am</p>
         </div>
         <textarea class="past col-md-10" id="textThree"></textarea>
-        <div class="col-md-1 saveBtn" id="timeThree" data-time = "6">
+        <div class="col-md-1 saveBtn" id="timeThree" data-time = "Three">
           <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -62,7 +12,7 @@
           <p>7am</p>
         </div>
         <textarea class="past col-md-10" id="textFour"></textarea>
-        <div class="col-md-1 saveBtn" id="timeFour" data-time = "7">
+        <div class="col-md-1 saveBtn" id="timeFour" data-time = "Four">
             <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -71,7 +21,7 @@
           <p>8am</p>
         </div>
         <textarea class="past col-md-10" id="textFive"></textarea>
-        <div class="col-md-1 saveBtn" id="timeFive" data-time = "8">
+        <div class="col-md-1 saveBtn" id="timeFive" data-time = "Five">
           <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -80,7 +30,7 @@
           <p>9am</p>
         </div>
         <textarea class="past col-md-10" id="textSix"></textarea>
-        <div class="col-md-1 saveBtn" id="timeSix" data-time = "9">
+        <div class="col-md-1 saveBtn" id="timeSix" data-time = "Six">
             <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -89,7 +39,7 @@
           <p>10am</p>
         </div>
         <textarea class="past col-md-10" id="textSeven"></textarea>
-        <div class="col-md-1 saveBtn" id="timeSeven" data-time = "10">
+        <div class="col-md-1 saveBtn" id="timeSeven" data-time = "Seven">
           <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -98,7 +48,7 @@
           <p>11am</p>
         </div>
         <textarea class="past col-md-10" id="textEight"></textarea>
-        <div class="col-md-1 saveBtn" id="timeEight" data-time = "11">
+        <div class="col-md-1 saveBtn" id="timeEight" data-time = "Eight">
             <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -107,7 +57,7 @@
           <p>12pm</p>
         </div>
         <textarea class="past col-md-10" id="textNine"></textarea>
-        <div class="col-md-1 saveBtn" id="timeNine" data-time = "12">
+        <div class="col-md-1 saveBtn" id="timeNine" data-time = "Nine">
           <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -116,7 +66,7 @@
           <p>1pm</p>
         </div>
         <textarea class="past col-md-10" id="textTen"></textarea>
-        <div class="col-md-1 saveBtn" id="timeTen" data-time = "13">
+        <div class="col-md-1 saveBtn" id="timeTen" data-time = "Ten">
             <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -125,7 +75,7 @@
           <p>2pm</p>
         </div>
         <textarea class="past col-md-10" id="textEleven"></textarea>
-        <div class="col-md-1 saveBtn" id="timeEleven" data-time = "14">
+        <div class="col-md-1 saveBtn" id="timeEleven" data-time = "Eleven">
           <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -134,7 +84,7 @@
           <p>3pm</p>
         </div>
         <textarea class="past col-md-10" id="textTwelve"></textarea>
-        <div class="col-md-1 saveBtn" id="timeTwelve" data-time = "15">
+        <div class="col-md-1 saveBtn" id="timeTwelve" data-time = "Twelve">
             <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -143,7 +93,7 @@
           <p>4pm</p>
         </div>
         <textarea class="past col-md-10" id="textThirteen"></textarea>
-        <div class="col-md-1 saveBtn" id="timeThirteen" data-time = "16">
+        <div class="col-md-1 saveBtn" id="timeThirteen" data-time = "Thirteen">
           <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -152,7 +102,7 @@
           <p>5pm</p>
         </div>
         <textarea class="past col-md-10" id="textFourteen"></textarea>
-        <div class="col-md-1 saveBtn" id="timeFourteen" data-time = "17">
+        <div class="col-md-1 saveBtn" id="timeFourteen" data-time = "Fourteen">
             <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -161,7 +111,7 @@
           <p>6pm</p>
         </div>
         <textarea class="past col-md-10" id="textFifteen"></textarea>
-        <div class="col-md-1 saveBtn" id="timeFifteen" data-time = "18">
+        <div class="col-md-1 saveBtn" id="timeFifteen" data-time = "Fifteen">
           <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -170,7 +120,7 @@
           <p>7pm</p>
         </div>
         <textarea class="past col-md-10" id="textSixteen"></textarea>
-        <div class="col-md-1 saveBtn" id="timeSixteen" data-time = "19">
+        <div class="col-md-1 saveBtn" id="timeSixteen" data-time = "Sixteen">
             <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -179,7 +129,7 @@
           <p>8pm</p>
         </div>
         <textarea class="past col-md-10" id="textSeventeen"></textarea>
-        <div class="col-md-1 saveBtn" id="timeSeventeen" data-time = "20">
+        <div class="col-md-1 saveBtn" id="timeSeventeen" data-time = "Seventeen">
             <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -188,7 +138,7 @@
           <p>9pm</p>
         </div>
         <textarea class="past col-md-10" id="textEighteen"></textarea>
-        <div class="col-md-1 saveBtn" id="timeEighteen" data-time = "21">
+        <div class="col-md-1 saveBtn" id="timeEighteen" data-time = "Eighteen">
           <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -197,7 +147,7 @@
           <p>10pm</p>
         </div>
         <textarea class="past col-md-10" id="textNineteen"></textarea>
-        <div class="col-md-1 saveBtn" id="timeNineteen" data-time = "22">
+        <div class="col-md-1 saveBtn" id="timeNineteen" data-time = "Nineteen">
             <i class="far fa-save centered"></i>
         </div>
       </div>
@@ -206,25 +156,16 @@
           <p>11pm</p>
         </div>
         <textarea class="past col-md-10" id="textTwenty"></textarea>
-        <div class="col-md-1 saveBtn" id="timeTwenty" data-time = "23">
+        <div class="col-md-1 saveBtn" id="timeTwenty" data-time = "Twenty">
           <i class="far fa-save centered"></i>
         </div>
       </div>
-      <!-- time = 00, edge case 
-        <div class="row">
+      <div class="row">
         <div class="col-md-1 hour">
           <p>12am</p>
         </div>
         <textarea class="past col-md-10" id="textTwentyOne"></textarea>
-        <div class="col-md-1 saveBtn" id="timeTwentyOne" data-time = "24">
+        <div class="col-md-1 saveBtn" id="timeTwentyOne" data-time = "TwentyOne">
             <i class="far fa-save centered"></i>
         </div>
-      </div> -->
-
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="script.js"></script>
-  </body>
-</html>
+      </div>

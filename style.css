@@ -48,16 +48,19 @@ textarea{
 .past {
   background-color: #d3d3d3;
   color: white;
+  width: 83.3333333%;
 }
 
 .present {
   background-color: #ff6961;
   color: white;
+  width: 83.3333333%;
 }
 
 .future {
   background-color: #77dd77;
   color: white;
+  width: 83.3333333%;
 }
 
 .saveBtn {
