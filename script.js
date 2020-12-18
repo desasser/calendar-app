@@ -44,7 +44,6 @@ $(".saveBtn").on("click", function () {
 })
 
 //Take the schedule from textareas and add it to the appropriate text areas
-//TODO: add other elements
 $("#textOne").val(localStorage.getItem('4'));
 $("#textTwo").val(localStorage.getItem('5'));
 $("#textThree").val(localStorage.getItem('6'));
