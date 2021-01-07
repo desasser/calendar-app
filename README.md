@@ -4,6 +4,7 @@
 
 <br />
 
+## Link: https://desasser.github.io/calendar-app/
 - - - - 
 
 ## Goals: 
@@ -34,7 +35,7 @@
 * All entries should remain in their cells after refresh
 * The current day is displayed at the top of the page
 
-## Link: https://desasser.github.io/calendar-app/
+
 
 <br />
 
