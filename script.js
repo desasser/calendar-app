@@ -1,24 +1,24 @@
 //Declare variables for local storage
-var thisHour = '';
-var newValue = '';
+let thisHour = '';
+let newValue = '';
 
 //Upon loading page, grab anything in local storage and display it to the textarea corresponding to the timeOfDay value in the schedule object
 
 //Fetch current day of the week and date from moment.js
-var now = moment().format('dddd, MMMM Do YYYY');
+const now = moment().format('dddd, MMMM Do YYYY');
 
 //Append current day to p-tag of currentDay in HTML
 $('#currentDay').text(now);
 
 //Fetch current time from moment.js
-var currentTime = moment().format('HH')
+const currentTime = moment().format('HH')
 
 //Outputs a time in military time as a number
 console.log(moment().hour());
 
 //Run loop to check which block current time fits in and assign class (past, future, present)
 //Could be a 'for each' method instead to loop over only existing elements instead of 0-24
-for (i = 0; i < 24; i++) {
+for (let i = 0; i < 24; i++) {
     // console.log(i);
     if (parseInt(currentTime) === i) {
         //grab the thing with data-time = i and set the class attribute to present
